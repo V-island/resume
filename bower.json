@@ -1,0 +1,14 @@
+{
+  "name": "opixer-resume",
+  "description": "Personal Yellow Pages",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.1.7",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.5",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
