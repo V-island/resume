@@ -1,0 +1,41 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-styles/default-theme.html">
+<link rel="import" href="../../bower_components/paper-styles/typography.html">
+<link rel="import" href="../../bower_components/paper-styles/shadow.html">
+<style is="custom-style">
+
+:root{
+	
+	--primary-color: var(--paper-indigo-500);
+    --light-primary-color: var(--paper-indigo-100);
+    --dark-primary-color: var(--paper-indigo-700);
+
+    --primary-text-color: var(--paper-grey-100);
+    --primary-background-color:var(--paper-grey-900);
+
+	--theme-dark: {
+		background: var(--primary-background-color);
+		color: var(--primary-text-color);
+	};
+
+	
+
+	--paper-font-common-base: {
+        font-family: '微软雅黑', 'Noto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    };
+   
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+    @apply(--layout-fullbleed);
+    @apply(--paper-font-common-base);
+    /*@apply(--theme-dark);*/
+    margin: 0;
+    overflow: hidden;
+}
+</style>
